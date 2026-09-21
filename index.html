@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+      Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80"
+           alt="A peaceful mountain landscape"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+           alt="A tropical beach with blue water"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80"
+           alt="A green forest in sunlight"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=600&q=80"
+           alt="A colorful sunset"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"
+           alt="Snow-covered mountain peaks"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+
+      <img class="preview"
+           src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=600&q=80"
+           alt="A quiet path through the woods"
+           onmouseover="upDate(this)"
+           onmouseout="unDo()">
+    </div>
+  </main>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
